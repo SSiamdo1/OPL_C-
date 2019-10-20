@@ -11,8 +11,13 @@
 #ifndef includes_h
 #define includes_h
 
+#include <iostream>
 #include <string>
+#include <vector>
 using namespace std;
+#define DECK 58
+#define RANK 11
+#define SUIT 5
 
 #endif /* includes_h */
 

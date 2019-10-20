@@ -33,14 +33,25 @@
 class Card {
 
 public:
-    Card(string Ranks[], string Suits[]);
+    Card();
+    void Set_Rank(int Ranks);
+    void Set_Suit(int Suit);
+    void Set_Value(int Value);
+    void Set_Full_Card();
+    string Get_Rank();
+    string Get_Suit();
+    string Get_Full_Card();
+    int Get_Value();
 
     
 private:
-    static const string Ranks[];
-    static const string Suits[];
-    int value;
-    
+    int Card_Rank_Number;
+    int Card_Suit_Number;
+    string Card_Rank;
+    string Card_Suit;
+    string Full_Card;
+    int Card_Value;
+   
     
 };
 
